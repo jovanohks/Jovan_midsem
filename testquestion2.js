@@ -25,10 +25,10 @@ function setup(){
 function draw(){
     background(255);
     camera.x=player.x;
-    if (player.colliding(floor)){}
-    if (mouse.presses("left")){
-        player.vel.y=-10;
-        console.log("a")
+    if (player.colliding(floor)){
+        if (mouse.presses("left")){
+            player.vel.y=-10;
+            console.log("a")
+        }
     }
-
 }
