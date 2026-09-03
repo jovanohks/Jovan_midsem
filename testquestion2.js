@@ -26,7 +26,7 @@ function draw(){
     background(255);
     camera.x=player.x;
     if (player.colliding(floor)){
-        if (mouse.presses("left")){
+        if (mouse.presses() || kb.presses("space")){
             player.vel.y=-10;
             console.log("a")
         }
