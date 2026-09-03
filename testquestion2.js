@@ -27,8 +27,8 @@ function draw(){
     camera.x=player.x;
     if (player.colliding(floor)){
         if (mouse.presses() || kb.presses("space")){
-            player.vel.y=-10;
-            console.log("a")
+            player.vel.y=-5;
+
         }
     }
 }
