@@ -29,5 +29,5 @@ function draw(){
         player.vel.y=-10;
         console.log("a")
     }
-    player.vel.y=5
+
 }
