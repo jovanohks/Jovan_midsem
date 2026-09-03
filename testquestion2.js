@@ -25,4 +25,7 @@ function setup(){
 function draw(){
     background(255);
     camera.x=player.x;
+    if (player.collides(floor)){
+        pr
+    }
 }
