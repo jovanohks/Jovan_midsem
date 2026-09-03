@@ -27,6 +27,7 @@ function draw(){
     camera.x=player.x;
     if (player.collides(floor) && mouse.presses()){
         player.vel.y=-10;
+        console.log("a")
     }
     player.vel.y=5
 }
