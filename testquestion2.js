@@ -19,6 +19,7 @@ function setup(){
     floor.collider="static";
     world.gravity.y=10;
     player.vel.x=6;
+    
 }
 
 function draw(){
